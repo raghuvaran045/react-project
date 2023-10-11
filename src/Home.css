@@ -1,0 +1,72 @@
+.imgcon{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgcon img{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+.item{
+    width:27%;
+    height: 67vh;
+    border: 1px solid rgb(95, 89, 89);
+    padding: 12px;
+    margin-left:5vh;
+    box-shadow: 2px 1px 1px 1px rgba(95, 0, 61, 0.022);
+    position: relative;
+}
+.prodcon{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap:2vh;
+}
+.prodcon div{
+    color: black;
+}
+.font{
+    font-size: 22px;
+    font-family: monospace;
+}
+.con1 div{
+    width: 100%; 
+}
+.desc{
+    font-size: 14px;
+    font-style: italic;
+}
+.pri i{
+    font-size: 15px;
+    
+    
+}
+.rat{
+    font-size: 15px;
+}
+.font{
+    font-size: 18px;
+}
+.cat{
+    font-size: 15px;
+
+}
+ .con1 button{
+    color: black;
+    background-color: lightsalmon;
+    border-color: black;
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    border-style: solid;
+}
+.ter footer{
+    font-size: 20px;
+    color:blue ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

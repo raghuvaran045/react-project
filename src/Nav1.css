@@ -1,0 +1,57 @@
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-family: monospace;
+}
+nav a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;  
+}
+.bag img{
+   height: 65px;
+
+}
+
+nav img{
+    height: 40px;
+    padding-top: 20px;
+    line-height: 0px;   
+}
+.sel{
+   display: block;
+   line-height: 0px;
+}
+.ret{
+    display: block;
+    line-height: 40px;
+  
+}
+.ord{
+    display: block;
+    line-height: 26px;
+}
+.cus{
+    display: block;
+    line-height: 40px;
+}
+.ser{
+    display: block;
+    line-height: 25px;
+}
+nav a:not(:first-child):hover{
+    border: 1px solid lightsalmon;
+    color:lightpink;
+    transition: 2s ease-in;
+}
+.bag{
+    width: 20vh;
+    height: 17vh;
+    background: url("https://images.pexels.com/photos/5872347/pexels-photo-5872347.jpeg?auto=compress&cs=tinysrgb&w=400");
+  background-size: 140% 150%;
+  background-position:50% 80%;
+}
